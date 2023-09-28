@@ -20,59 +20,59 @@ include('data.php')?>
         <tbody>
             <tr>
                 <td>16:00 - 16:55</td>
-                <td>Fila 1</td>
-                <td>Fila 1</td>
-                <td>Fila 1</td>
-                <td>Fila 1</td>
-                <td>Fila 1</td>
+                <td><?=$DIW?></td>
+                <td><?=$DWEC?></td>
+                <td><?=$DIW?></td>
+                <td><?=$DWEC?></td>
+                <td><?=$DWES?></td>
             </tr>
             <tr>
                 <td>16:55 - 17:50</td>
-                <td>Fila 2</td>
-                <td>Fila 2</td>
-                <td>Fila 2</td>
-                <td>Fila 2</td>
-                <td>Fila 2</td>
+                <td><?=$DIW?></td>
+                <td><?=$DWEC?></td>
+                <td><?=$DIW?></td>
+                <td><?=$DWEC?></td>
+                <td><?=$DWES?></td>
             </tr>
             <tr>
                 <td>17:50 - 18:45</td>
-                <td>Fila 3</td>
-                <td>Fila 3</td>
-                <td>Fila 3</td>
-                <td>Fila 3</td>
-                <td>Fila 3</td>
+                <td><?=$DWES?></td>
+                <td><?=$EIE_DAW?></td>
+                <td><?=$EIE_DAW?></td>
+                <td><?=$DAW?></td>
+                <td><?=$DWES?></td>
             </tr>
             <tr>
                 <td>18:45 - 19:10</td>
-                <td>Fila 4</td>
-                <td>Fila 4</td>
-                <td>Fila 4</td>
-                <td>Fila 4</td>
-                <td>Fila 4</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
                 <td>19:10 - 20:05</td>
-                <td>Fila 5</td>
-                <td>Fila 5</td>
-                <td>Fila 5</td>
-                <td>Fila 5</td>
-                <td>Fila 5</td>
+                <td><?=$DWES?></td>
+                <td><?=$DWES?></td>
+                <td><?=$EIE_DAW?></td>
+                <td><?=$DAW?></td>
+                <td><?=$DWEC?></td>
             </tr>
             <tr>
                 <td>20:05 - 21:00</td>
-                <td>Fila 6</td>
-                <td>Fila 6</td>
-                <td>Fila 6</td>
-                <td>Fila 6</td>
-                <td>Fila 6</td>
+                <td><?=$DWES?></td>
+                <td><?=$DWES?></td>
+                <td><?=$DAW?></td>
+                <td><?=$DIW?></td>
+                <td><?=$DWEC?></td>
             </tr>
             <tr>
                 <td>21:00 - 21:55</td>
-                <td>Fila 7</td>
-                <td>Fila 7</td>
-                <td>Fila 7</td>
-                <td>Fila 7</td>
-                <td>Fila 7</td>
+                <td><?=$ITGS?></td>
+                <td><?=$DWES?></td>
+                <td><?=$DAW?></td>
+                <td><?=$DIW?></td>
+                <td><?=$ITGS?></td>
             </tr>
         </tbody>
     </table>
