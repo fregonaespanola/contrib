@@ -40,13 +40,13 @@ th, td{
 }
 
 .cell {
-    position: relative; /* Agrega esta línea para usar posicionamiento relativo */
+    position: relative;
 }
 
 .boton {
     position: absolute;
     top: 6px;
-    right: -10px; /* Ajusta la posición según tus necesidades */
+    right: -10px;
     display: none;
 }
 
