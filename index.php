@@ -9,6 +9,8 @@ include('data.php')?>
     <title>Horario</title>
 </head>
 <body>
+    <h1>Horario de clases DAW 23-24</h1>
+    <div class="contenedor">
     <table>
             <tr>
                 <th>HORAS</th>
@@ -77,5 +79,6 @@ include('data.php')?>
             </tr>
         </tbody>
     </table>
+    </div>
 </body>
 </html>
