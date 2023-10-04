@@ -38,3 +38,18 @@ th, td{
 .impares{
     background-color: #65cfd3;
 }
+
+.cell {
+    position: relative; /* Agrega esta línea para usar posicionamiento relativo */
+}
+
+.boton {
+    position: absolute;
+    top: 6px;
+    right: -10px; /* Ajusta la posición según tus necesidades */
+    display: none;
+}
+
+.cell:hover .boton {
+    display: inline-block;
+}
