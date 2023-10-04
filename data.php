@@ -1,6 +1,6 @@
 <?php
 $DIW="Desarrollo de Interfaces Web";
-$DWES="Desarrollo Web en entorno sertvidor";
+$DWES="Desarrollo Web en entorno servidor";
 $DWEC="Desarrollo Web en entorno cliente";
 $DW="Desarrollo Web en entorno servidor";
 $DAW="Despliegue de Aplicaciones Web";

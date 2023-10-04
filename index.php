@@ -21,31 +21,31 @@ include('data.php')?>
                 <th>VIERNES</th>
             </tr>
         <tbody>
-            <tr>
+            <tr class="impares">
                 <td>16:00 - 16:55</td>
-                <td><?=$DIW?></td>
-                <td><?=$DWEC?></td>
-                <td><?=$DIW?></td>
-                <td><?=$DWEC?></td>
-                <td><?=$DWES?></td>
+                <td class="cell"><?=$DIW?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DWEC?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DIW?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DWEC?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DWES?> <button class="boton">+</button></td>
             </tr>
-            <tr>
+            <tr class="pares">
                 <td>16:55 - 17:50</td>
-                <td><?=$DIW?></td>
-                <td><?=$DWEC?></td>
-                <td><?=$DIW?></td>
-                <td><?=$DWEC?></td>
-                <td><?=$DWES?></td>
+                <td class="cell"><?=$DIW?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DWEC?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DIW?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DWEC?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DWES?> <button class="boton">+</button></td>
             </tr>
-            <tr>
-                <td>17:50 - 18:45</td>
-                <td><?=$DWES?></td>
-                <td><?=$EIE_DAW?></td>
-                <td><?=$EIE_DAW?></td>
-                <td><?=$DAW?></td>
-                <td><?=$DWES?></td>
+            <tr class="impares">
+                <td class="cell">17:50 - 18:45</td>
+                <td class="cell"><?=$DWES?> <button class="boton">+</button></td>
+                <td class="cell"><?=$EIE_DAW?> <button class="boton">+</button></td>
+                <td class="cell"><?=$EIE_DAW?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DAW?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DWES?> <button class="boton">+</button></td>
             </tr>
-            <tr>
+            <tr class="pares">
                 <td>18:45 - 19:10</td>
                 <td></td>
                 <td></td>
@@ -53,29 +53,29 @@ include('data.php')?>
                 <td></td>
                 <td></td>
             </tr>
-            <tr>
-                <td>19:10 - 20:05</td>
-                <td><?=$DWES?></td>
-                <td><?=$DWES?></td>
-                <td><?=$EIE_DAW?></td>
-                <td><?=$DAW?></td>
-                <td><?=$DWEC?></td>
+            <tr class="impares">
+                <td class="cell">19:10 - 20:05</td>
+                <td class="cell"><?=$DWES?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DWES?> <button class="boton">+</button></td>
+                <td class="cell"><?=$EIE_DAW?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DAW?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DWEC?> <button class="boton">+</button></td>
             </tr>
-            <tr>
+            <tr class="pares">
                 <td>20:05 - 21:00</td>
-                <td><?=$DWES?></td>
-                <td><?=$DWES?></td>
-                <td><?=$DAW?></td>
-                <td><?=$DIW?></td>
-                <td><?=$DWEC?></td>
+                <td class="cell"><?=$DWES?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DWES?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DAW?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DIW?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DWEC?> <button class="boton">+</button></td>
             </tr>
-            <tr>
+            <tr class="impares">
                 <td>21:00 - 21:55</td>
-                <td><?=$ITGS?></td>
-                <td><?=$DWES?></td>
-                <td><?=$DAW?></td>
-                <td><?=$DIW?></td>
-                <td><?=$ITGS?></td>
+                <td class="cell"><?=$ITGS?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DWES?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DAW?> <button class="boton">+</button></td>
+                <td class="cell"><?=$DIW?> <button class="boton">+</button></td>
+                <td class="cell"><?=$ITGS?> <button class="boton">+</button></td>
             </tr>
         </tbody>
     </table>
