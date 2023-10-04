@@ -9,76 +9,73 @@ include('data.php')?>
     <title>Horario</title>
 </head>
 <body>
-    <h1>Horario de clases DAW 23-24</h1>
-    <div class="contenedor">
-        <table>
-                <tr class="dias">
-                    <th>HORAS</th>
-                    <th>LUNES</th>
-                    <th>MARTES</th>
-                    <th>MIÉRCOLES</th>
-                    <th>JUEVES</th>
-                    <th>VIERNES</th>
-                </tr>
-            <tbody>
-                <tr class="impares">
-                    <td class="cell">16:00 - 16:55</td>
-                    <td class="cell">Fila 1<button class="boton">+</button></td>
-                    <td class="cell">Fila 1<button class="boton">+</button></td>
-                    <td class="cell">Fila 1<button class="boton">+</button></td>
-                    <td class="cell">Fila 1<button class="boton">+</button></td>
-                    <td class="cell">Fila 1<button class="boton">+</button></td>
-                </tr>
-                <tr class="pares">
-                    <td class="cell">16:55 - 17:50</td>
-                    <td class="cell">Fila 2<button class="boton">+</button></td>
-                    <td class="cell">Fila 2<button class="boton">+</button></td>
-                    <td class="cell">Fila 2<button class="boton">+</button></td>
-                    <td class="cell">Fila 2<button class="boton">+</button></td>
-                    <td class="cell">Fila 2<button class="boton">+</button></td>
-                </tr>
-                <tr class="impares">
-                    <td class="cell">17:50 - 18:45</td>
-                    <td class="cell">Fila 3<button class="boton">+</button></td>
-                    <td class="cell">Fila 3<button class="boton">+</button></td>
-                    <td class="cell">Fila 3<button class="boton">+</button></td>
-                    <td class="cell">Fila 3<button class="boton">+</button></td>
-                    <td class="cell">Fila 3<button class="boton">+</button></td>
-                </tr>
-                <tr class="pares">
-                    <td class="cell">18:45 - 19:10</td>
-                    <td class="cell">Fila 4<button class="boton">+</button></td>
-                    <td class="cell">Fila 4<button class="boton">+</button></td>
-                    <td class="cell">Fila 4<button class="boton">+</button></td>
-                    <td class="cell">Fila 4<button class="boton">+</button></td>
-                    <td class="cell">Fila 4<button class="boton">+</button></td>
-                </tr>
-                <tr class="impares">
-                    <td class="cell">19:10 - 20:05</td>
-                    <td class="cell">Fila 5<button class="boton">+</button></td>
-                    <td class="cell">Fila 5<button class="boton">+</button></td>
-                    <td class="cell">Fila 5<button class="boton">+</button></td>
-                    <td class="cell">Fila 5<button class="boton">+</button></td>
-                    <td class="cell">Fila 5<button class="boton">+</button></td>
-                </tr>
-                <tr class="pares">
-                    <td class="cell">20:05 - 21:00</td>
-                    <td class="cell">Fila 6<button class="boton">+</button></td>
-                    <td class="cell">Fila 6<button class="boton">+</button></td>
-                    <td class="cell">Fila 6<button class="boton">+</button></td>
-                    <td class="cell">Fila 6<button class="boton">+</button></td>
-                    <td class="cell">Fila 6<button class="boton">+</button></td>
-                </tr>
-                <tr class="impares">
-                    <td class="cell">21:00 - 21:55</td>
-                    <td class="cell">Fila 7<button class="boton">+</button></td>
-                    <td class="cell">Fila 7<button class="boton">+</button></td>
-                    <td class="cell">Fila 7<button class="boton">+</button></td>
-                    <td class="cell">Fila 7<button class="boton">+</button></td>
-                    <td class="cell">Fila 7<button class="boton">+</button></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <table>
+            <tr>
+                <th>HORAS</th>
+                <th>LUNES</th>
+                <th>MARTES</th>
+                <th>MIÉRCOLES</th>
+                <th>JUEVES</th>
+                <th>VIERNES</th>
+            </tr>
+        <tbody>
+            <tr>
+                <td>16:00 - 16:55</td>
+                <td><?=$DIW?></td>
+                <td><?=$DWEC?></td>
+                <td><?=$DIW?></td>
+                <td><?=$DWEC?></td>
+                <td><?=$DWES?></td>
+            </tr>
+            <tr>
+                <td>16:55 - 17:50</td>
+                <td><?=$DIW?></td>
+                <td><?=$DWEC?></td>
+                <td><?=$DIW?></td>
+                <td><?=$DWEC?></td>
+                <td><?=$DWES?></td>
+            </tr>
+            <tr>
+                <td>17:50 - 18:45</td>
+                <td><?=$DWES?></td>
+                <td><?=$EIE_DAW?></td>
+                <td><?=$EIE_DAW?></td>
+                <td><?=$DAW?></td>
+                <td><?=$DWES?></td>
+            </tr>
+            <tr>
+                <td>18:45 - 19:10</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>19:10 - 20:05</td>
+                <td><?=$DWES?></td>
+                <td><?=$DWES?></td>
+                <td><?=$EIE_DAW?></td>
+                <td><?=$DAW?></td>
+                <td><?=$DWEC?></td>
+            </tr>
+            <tr>
+                <td>20:05 - 21:00</td>
+                <td><?=$DWES?></td>
+                <td><?=$DWES?></td>
+                <td><?=$DAW?></td>
+                <td><?=$DIW?></td>
+                <td><?=$DWEC?></td>
+            </tr>
+            <tr>
+                <td>21:00 - 21:55</td>
+                <td><?=$ITGS?></td>
+                <td><?=$DWES?></td>
+                <td><?=$DAW?></td>
+                <td><?=$DIW?></td>
+                <td><?=$ITGS?></td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
